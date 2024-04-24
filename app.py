@@ -13,7 +13,6 @@ import nltk
 from keras.preprocessing import image
 nltk.data.path.append("/path/to/nltk_data")
 nltk.download('popular')
-import cv2
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 import pickle
